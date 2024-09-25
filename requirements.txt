@@ -1,0 +1,8 @@
+fastapi
+pydantic
+google.generativeai
+uvicorn
+PIL
+pdf2image
+pytesseract
+PyPDF2
