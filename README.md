@@ -4,19 +4,18 @@
 
 # Orbis
 
-A 3D Web app to create and export 3D worlds on Blender, using a given prompt. Aimed at helping Authors, and Creatives in general, with World Building, Picturization and Imagination.
-
-
-
+AI Integrated Study Helper
 
 ## Features
 
-- Live previews
-- Fullscreen mode
-- Cross platform
-- Prompt Editing
-- Exporting the file as a Video (.mp4) / Blender Object file
-
+- Content Summariser
+- Progress Tracking
+- Quiz Generator
+- Calendar
+- Test Your Understanding
+- Music in Background
+- TTS and STT
+- Pomodoro Tracking
 
 ## Demo
 
@@ -31,7 +30,6 @@ A 3D Web app to create and export 3D worlds on Blender, using a given prompt. Ai
 
 <demo 1>
 ```prompt
-A world where it's primarily Winter. Broken Architecture. New York like streets.
 ```
 
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
@@ -39,9 +37,9 @@ A world where it's primarily Winter. Broken Architecture. New York like streets.
 
 ## Tech Stack
 
-**Front End:** React, TailwindCSS, Three.js
+**Front End:** React, TailwindCSS
 
-**Server:** Node, FAST APIs, Blender, Python
+**Server:** Node, FAST APIs, Python
 
 
 ## Authors
