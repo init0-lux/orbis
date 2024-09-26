@@ -9,11 +9,11 @@ import io
 from pdf2image import convert_from_path
 import pytesseract
 from PyPDF2 import PdfReader, PdfWriter
-
+import api
 
 app = FastAPI()
 
-genai.configure(api_key="AIzaSyDhg6Kt2K_p9ThTMvbezi7Wa2JZ9xo-vw8")
+genai.configure(api.api_key)
 model = genai.GenerativeModel('gemini-1.5-flash')
 
 class PromptRequest(BaseModel):
@@ -93,4 +93,4 @@ async def ocr_pdf_answer(page_number: int, comparison_text: str):
     
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="192.168.203.150", port=80)
+    uvicorn.run(app, host="192.168.148.5", port=80)
